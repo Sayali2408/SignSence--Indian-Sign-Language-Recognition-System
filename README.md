@@ -103,7 +103,7 @@ SignSense/
 
 
 # 🤝 Contributors
-@+Sayali2408
+https://github.com/Sayali2408
 @preeti109
 @analysis12
 
