@@ -1,1 +1,1 @@
-# SignSence--Indian-Sign-Language-Recognition-System
+# SignSesce--Indian-Sign-Language-Recognition-System
