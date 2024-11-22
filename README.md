@@ -104,7 +104,9 @@ SignSense/
 
 # 🤝 Contributors
 [@Sayali Tachale](https://github.com/Sayali2408)
+
 [@Preeti Dubile](https://github.com/preeti109)
+
 [@Anuradha Bansode](https://github.com/anyalisis12)
 
 
