@@ -1,11 +1,11 @@
 # SignSense: Indian Sign Language Recognition System  
 
-📌 Objective  
+# 📌 Objective  
 The goal of this project is to develop a robust and reliable system for the recognition of alphabets and numbers from Indian Sign Language (ISL). Using a comprehensive dataset, the system is designed to handle diverse image conditions, including variations in lighting, hand orientations, and shapes, ensuring adaptability for real-world applications.  
 
 ---  
 
-🛠️ Pre-requisites 
+# 🛠️ Pre-requisites 
 
 Before running this project, ensure that you have the following dependencies installed:  
 
@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 ---  
 
-🚀 Steps of Execution
+# 🚀 Steps of Execution
 
 1️⃣ Image Collection  
 The first step involves capturing hand gesture images representing ISL alphabets and numbers. A simple camera interface was created using OpenCV to collect thousands of images for each sign. The dataset was designed to include multiple samples to ensure the model’s robustness and ability to generalize across variations.  
@@ -55,7 +55,7 @@ After successful training, the model was integrated with a real-time camera feed
 
 ---  
 
-📂 Project Structure 
+# 📂 Project Structure 
 
 ```
 SignSense/
@@ -72,7 +72,7 @@ SignSense/
 
 ---  
 
-💻 How to Run the Project
+# 💻 How to Run the Project
 
 1. Clone the Repository:  
    ```bash
@@ -102,8 +102,9 @@ SignSense/
 ---  
 
 
-🤝 Group Members  
-@Sayali2408
-@analysis12
+# 🤝 Contributors
+@+Sayali2408
 @preeti109
+@analysis12
+
 
