@@ -1,34 +1,107 @@
-# SignSense--Indian-Sign-Language-Recognition-System
+# SignSense: Indian Sign Language Recognition System  
 
-OBJECTIVE
-The objective of this project is to develop a robust system for the analysis and recognition of various alphabets and numbers from a comprehensive dataset of Indian Sign Language (ISL) images. The dataset encompasses a diverse collection of images captured under varying lighting conditions and featuring a wide range of hand orientations and shapes, ensuring adaptability and reliability in real-world scenarios.
+📌 Objective  
+The goal of this project is to develop a robust and reliable system for the recognition of alphabets and numbers from Indian Sign Language (ISL). Using a comprehensive dataset, the system is designed to handle diverse image conditions, including variations in lighting, hand orientations, and shapes, ensuring adaptability for real-world applications.  
 
-PRE-REQUISITES
-Before running this project, make sure you have following dependencies -
+---  
 
-Python
+🛠️ Pre-requisites 
+Before running this project, ensure that you have the following dependencies installed:  
 
-Pip
+- Python (v3.x or higher)  
+- Pip  
+- OpenCV  
+- TensorFlow  
+- Keras 
+- NumPy  
 
-OpenCV
+To install the required packages, use:  
+```bash
+pip install -r requirements.txt
+```  
 
-TensorFlow
+---  
 
-Keras
+🚀 Steps of Execution
 
-NumPy
+1️⃣ Image Collection  
+The first step involves capturing hand gesture images representing ISL alphabets and numbers. A simple camera interface was created using OpenCV to collect thousands of images for each sign. The dataset was designed to include multiple samples to ensure the model’s robustness and ability to generalize across variations.  
 
-STEPS OF EXECUTION
-1. Image Collection: The initial step involved capturing hand gesture images representing various letters and numbers in Indian Sign Language (ISL). A simple camera interface was developed using OpenCV to acquire thousands of images for each sign. The dataset was designed to include multiple samples per sign to ensure the model’s robustness and generalizability.  
+2️⃣ Data Splitting 
+The collected images were split into training and validation sets. This separation helps the model learn effectively from the training data while being evaluated on unseen validation data, ensuring reliable performance and minimizing overfitting risks.  
 
-2. Data Splitting: Following data collection, the images were organized into training and validation sets. This split was crucial to facilitate effective learning while enabling accurate evaluation on unseen data, reducing the risk of overfitting and ensuring reliable model performance assessment.  
+3️⃣ Data Preprocessing 
+The images were preprocessed to prepare them for model training. Key preprocessing steps included:  
+- Resizing: Uniform resizing of images to a consistent dimension.  
+- Normalization: Scaling pixel values for efficient learning.  
+- Data Augmentation: Techniques like rotation and flipping were applied to increase dataset diversity and improve the model’s generalization capabilities.  
 
-3. Data Preprocessing: To prepare the images for model training, several preprocessing steps were applied. Images were resized to a uniform dimension, pixel values were normalized, and, where applicable, images were converted to grayscale. Additionally, data augmentation techniques, such as rotation and flipping, were employed to enhance dataset diversity and improve the model’s generalization capabilities.  
+4️⃣ Model Building  
+A Convolutional Neural Network (CNN) was designed to classify the images into their respective sign classes.  
+- Convolutional Layers**: Extract spatial features from the hand gestures.  
+- **Pooling Layers**: Reduce the dimensionality of feature maps.  
+- **Dense Layers**: Perform the final classification task.  
 
-4. Model Construction: A Convolutional Neural Network (CNN) was designed to classify images into their respective sign classes. The architecture included multiple convolutional layers to extract spatial features from hand gestures, pooling layers to reduce dimensionality, and dense layers to perform the final classification.  
+5️⃣ Model Training
+The CNN model was trained on the prepared dataset, with validation data used to monitor its progress.  
+- Epochs: The model refined its understanding over multiple iterations.  
+- Hyperparameter Tuning: Adjustments were made to optimize the model’s accuracy.  
 
-5. Model Training: The CNN was trained on the prepared dataset, with its progress monitored using the validation set. Over successive epochs, the model refined its understanding of the distinguishing features of each sign. Hyperparameter tuning was conducted to optimize performance, ensuring high accuracy in classification tasks.  
+6️⃣ Real-Time Prediction 
+After successful training, the model was integrated with a real-time camera feed.  
+- Each frame captured by the camera is **preprocessed** and passed to the trained model for prediction.  
+- The **recognized sign** is displayed instantly, providing users with immediate feedback.  
 
-6. Real-Time Prediction: After training, the model was integrated with a real-time camera feed for live gesture recognition. Each frame was captured, preprocessed, and fed into the trained model for prediction. The recognized sign was displayed instantly, providing immediate feedback to users.
+---  
 
-Group Members
+📂 Project Structure 
+
+```
+SignSense/
+│
+├── dataset/                # Collected ISL images (train & validation sets)
+├── models/                 # Saved model files
+├── scripts/                # Scripts for training, testing, and real-time prediction
+│   ├── train.py            # Model training script
+│   ├── predict.py          # Real-time prediction script
+│   └── preprocess.py       # Data preprocessing and augmentation script
+├── requirements.txt        # List of required dependencies
+└── README.md               # Project documentation (this file)
+```  
+
+---  
+
+💻 How to Run the Project
+
+1. Clone the Repository:  
+   ```bash
+   git clone https://github.com/your-username/SignSense.git
+   cd SignSense
+   ```  
+
+2. Install Dependencies:  
+   ```bash
+   pip install -r requirements.txt
+   ```  
+
+3. Prepare the Dataset:  
+   - Collect ISL images using the OpenCV script or use an existing dataset.  
+   - Organize the images into `train` and `validation` directories under the `dataset/` folder.  
+
+4. Train the Model:  
+   ```bash
+   python scripts/train.py
+   ```  
+
+5. Run Real-Time Prediction:  
+   ```bash
+   python scripts/predict.py
+   ```  
+
+---  
+
+
+🤝 Group Members  
+@https://github.com/Sayali2408
+@https://github.com/anyalisis12
+@https://github.com/Sayali2408
