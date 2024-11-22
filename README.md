@@ -104,7 +104,8 @@ SignSense/
 
 # 🤝 Contributors
 https://github.com/Sayali2408
-@preeti109
-@analysis12
+@preeto109
+https://github.com/anyalisis12
+
 
 
