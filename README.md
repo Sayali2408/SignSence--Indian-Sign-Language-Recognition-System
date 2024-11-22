@@ -102,6 +102,6 @@ SignSense/
 
 
 🤝 Group Members  
-@https://github.com/Sayali2408
-@https://github.com/anyalisis12
-@https://github.com/Sayali2408
+https://github.com/Sayali2408
+https://github.com/anyalisis12
+https://github.com/Sayali2408
