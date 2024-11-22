@@ -6,6 +6,7 @@ The goal of this project is to develop a robust and reliable system for the reco
 ---  
 
 🛠️ Pre-requisites 
+
 Before running this project, ensure that you have the following dependencies installed:  
 
 - Python (v3.x or higher)  
@@ -102,6 +103,7 @@ SignSense/
 
 
 🤝 Group Members  
-@https://github.com/Sayali2408
-https://github.com/anyalisis12
-https://github.com/Sayali2408
+@Sayali2408
+@analysis12
+@preeti109
+
