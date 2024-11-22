@@ -76,7 +76,7 @@ SignSense/
 
 1. Clone the Repository:  
    ```bash
-   git clone https://github.com/your-username/SignSense.git
+   git clone https://github.com/Sayali2408/SignSense--Indian-Sign-Language-Recognition-System.git
    cd SignSense
    ```  
 
